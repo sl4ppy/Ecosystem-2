@@ -33,6 +33,7 @@ namespace TerrainGeneration {
 
         bool needsUpdate;
 
+
         void Update () {
             if (needsUpdate && autoUpdate) {
                 needsUpdate = false;
